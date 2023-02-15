@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Authors>AmyliaScarlet</Authors>
+    <Product>AST</Product>
+    <Company>Ambutery</Company>
+    <Copyright>Powered By AmyliaScarlet</Copyright>
+    <Description>Designed and Developed By AmyliaScarlet .AST For WebSocketTool</Description>
+    <ApplicationIcon>AST_WT.ico</ApplicationIcon>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Windows.Interactivity.WPF" Version="2.0.20525" />
+  </ItemGroup>
+
+</Project>
